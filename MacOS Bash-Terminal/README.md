@@ -17,9 +17,9 @@ parse_git_branch() {
 ```
 
 ## ``` Colorize your terminal ```
-> Suggestion
+Suggestion
 
-Code
+>Code
 ```
 # Add Color to Folders
 
@@ -34,13 +34,13 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
 ```
-Result
+>Result
 
 ![image info](./assets/suggestion.png)
 
-> Alternative 1
+Alternative 1
 
-Code
+>Code
 ```
 USER='\033[01;34m\]\u\[\033[01;m\]'
 HOST='\[\033[36m\]@\h:\[\033[m\]'
@@ -49,13 +49,13 @@ BRANCH='$(parse_git_branch)\[\033[m\]'
 
 export PS1="$USER$HOST$CURRENT_DIR$BRANCH\$ "
 ```
-Result
+>Result
 
 ![image info](./assets/alternative1.png)
 
-> Alternative 2
+Alternative 2
 
-Code
+>Code
 ```
 USER='\[\033[36m\]\u\[\033[m\]@'
 HOST='\h:'
@@ -64,7 +64,7 @@ BRANCH='$(parse_git_branch)\[\033[m\]'
 
 export PS1="$USER$HOST$CURRENT_DIR$BRANCH\$ "
 ```
-Result
+>Result
 
 ![image info](./assets/alternative2.png)
 
