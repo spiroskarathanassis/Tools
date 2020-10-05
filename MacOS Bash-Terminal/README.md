@@ -60,4 +60,4 @@ BRANCH='$(parse_git_branch)\[\033[m\]'
 
 export PS1="$USER$HOST$CURRENT_DIR$BRANCH\$ "
 ```
-> <img src="./assets/alternative1.png" alt width="300px">
+> <img src="./assets/alternative2.png" alt width="300px">
