@@ -1,13 +1,13 @@
 # Terminal Bash on macOS
 
-## ``` Steps to edit your bash_profile```
-* Move to  user directory <code>cd ~</code>
-* Open editor <code>open -e .bash_profile</code>
+### Steps to edit your bash_profile
+* Move to  user directory `cd ~`
+* Open editor `open -e .bash_profile`
 * Write below steps
-* Save your code in your editor <code>Ctrl+S</code>
-* Refresh terminal <code>. .bash_profile</code> or close & open new window
+* Save your code in your editor `Ctrl+S`
+* Refresh terminal `. .bash_profile` or close & open new window
 
-## ``` Add current branch on terminal ```
+### Add current branch on terminal
 ```
 # Git Branch
 
@@ -16,7 +16,7 @@ parse_git_branch() {
 }
 ```
 
-## ``` Colorize your terminal ```
+### Colorize your terminal
 Suggestion
 
 >Code
@@ -34,9 +34,7 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
 ```
->Result
-
-![image info](./assets/suggestion.png)
+> <img src="./assets/suggestion.png" alt width="300px">
 
 Alternative 1
 
@@ -49,9 +47,7 @@ BRANCH='$(parse_git_branch)\[\033[m\]'
 
 export PS1="$USER$HOST$CURRENT_DIR$BRANCH\$ "
 ```
->Result
-
-![image info](./assets/alternative1.png)
+> <img src="./assets/alternative1.png" alt width="300px">
 
 Alternative 2
 
@@ -64,7 +60,4 @@ BRANCH='$(parse_git_branch)\[\033[m\]'
 
 export PS1="$USER$HOST$CURRENT_DIR$BRANCH\$ "
 ```
->Result
-
-![image info](./assets/alternative2.png)
-
+> <img src="./assets/alternative2.png" alt width="300px">
