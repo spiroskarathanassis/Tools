@@ -9,4 +9,4 @@ Description: Customize macos bash terminal
 repo [MacOS Bash-Terminal](https://github.com/spiroskarathanassis/Tools/tree/master/MacOS%20Bash-Terminal)
 
 ## Scripts
-> Python > 
+> Python : Split code into seperate files files > [link](https://github.com/spiroskarathanassis/Tools/tree/master/scripts/python)
