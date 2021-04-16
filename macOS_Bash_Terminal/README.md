@@ -23,7 +23,7 @@ Suggestion
 ```
 # Add Color to Folders
 
-USER='\033[01;34m\]\u\[\033[01;m\]@'
+USER='\[\033[01;34m\]\u\[\033[01;m\]@'
 HOST='\[\033[36m\]\h:\[\033[m\]'
 CURRENT_DIR='\[\033[32m\]\w\[\033[33;1m\]'
 BRANCH='$(parse_git_branch)\[\033[m\]'
@@ -40,7 +40,7 @@ Alternative 1
 
 >Code
 ```
-USER='\033[01;34m\]\u\[\033[01;m\]'
+USER='\[\033[01;34m\]\u\[\033[01;m\]'
 HOST='\[\033[36m\]@\h:\[\033[m\]'
 CURRENT_DIR='\[\033[32m\]\w\[\033[33;1m\]'
 BRANCH='$(parse_git_branch)\[\033[m\]'
